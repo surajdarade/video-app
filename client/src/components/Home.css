@@ -1,0 +1,15 @@
+.home-background {
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    position: relative;
+    z-index: 1;
+  }
+  
