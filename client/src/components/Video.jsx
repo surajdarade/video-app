@@ -8,8 +8,8 @@ const Video = () => {
 
   let myMeeting = async (element) => {
     // generate Kit Token
-    const appID = ZEGOCLOUD APP ID;
-    const serverSecret = ZEGOCLOUD SERVER SECRET;
+    const appID = parseInt(import.meta.env.VITE_APP_APP_ID);
+    const serverSecret = import.meta.env.VITE_APP_SERVER_SECRET;
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appID,
       serverSecret,
